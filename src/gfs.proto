@@ -10,6 +10,7 @@ service MasterServerToClient {
     rpc ReadFile(String) returns (String) {}
     rpc DeleteFile(String) returns (String) {}
     rpc UndeleteFile(String) returns (String) {}
+    
 }
 
 service ChunkServerToClient {

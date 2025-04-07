@@ -12,6 +12,7 @@ import uuid
 from common import Config as cfg
 from common import Status
 
+
 def choose_locs():
     total = len(cfg.chunkserver_locs)
     st = random.randint(0, total - 1)

@@ -8,6 +8,7 @@ import gfs_pb2
 from common import Config as cfg
 from common import isint
 
+
 def list_files(file_path):
     master = "localhost:{}".format(cfg.master_loc)
     with grpc.insecure_channel(master) as channel:
